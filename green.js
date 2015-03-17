@@ -1,5 +1,4 @@
 (function($){
-    
     var elems = $([]),
         doc = $(document);
     
