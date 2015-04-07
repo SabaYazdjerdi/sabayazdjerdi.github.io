@@ -8,7 +8,7 @@ body { background: url("https://www.dropbox.com/s/3yvleqvupw6ikmt/background.jpg
   color: black;
   font-family:Monospace;
   font-style:bold;
-  padding-top:300px;
+  padding-top:310px;
   margin-left:600px;
   position:fixed;
 }
@@ -28,7 +28,7 @@ body { background: url("https://www.dropbox.com/s/3yvleqvupw6ikmt/background.jpg
     height: 163px;
     border-radius: 0px;
     overflow: hidden;
-    opacity: 0.2;
+    opacity: 1;
 }
 .view img {
    margin-left:0px ;
