@@ -24,8 +24,6 @@ body { background: url("https://www.dropbox.com/s/3yvleqvupw6ikmt/background.jpg
     margin-left:0px ;
     margin-top:0px;
     background: transparent;
-    width: 345px;
-    height: 163px;
     border-radius: 0px;
     overflow: hidden;
     opacity: 1;
@@ -47,6 +45,8 @@ body { background: url("https://www.dropbox.com/s/3yvleqvupw6ikmt/background.jpg
 }
 .view .mask {
    margin: 0px 0px 0px 0px;
+   top:0;
+   left:0;
    background-color: rgba(212 , 213, 214 , 0.3);
    -webkit-transition: all 0.5s linear;
    -moz-transition: all 0.5s linear;
@@ -55,6 +55,7 @@ body { background: url("https://www.dropbox.com/s/3yvleqvupw6ikmt/background.jpg
    transition: all 0.5s linear;
    filter: alpha(opacity=0);
    opacity: 0;
+   position: absolute;
 }
 .view h2 {
    font-size: 10px;
