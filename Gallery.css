@@ -8,7 +8,7 @@ body { background: url("https://www.dropbox.com/s/3yvleqvupw6ikmt/background.jpg
   color: black;
   font-family:Monospace;
   font-style:bold;
-  padding-top:310px;
+  padding-top:300px;
   margin-left:600px;
   position:fixed;
 }
@@ -46,23 +46,23 @@ body { background: url("https://www.dropbox.com/s/3yvleqvupw6ikmt/background.jpg
   opacity: 1;
 }
 .view .mask {
-   background-color: rgba(255, 231, 179, 0.3);
+   margin: 0px 0px 0px 0px;
+   background-color: rgba(212 , 213, 214 , 0.3);
    -webkit-transition: all 0.5s linear;
    -moz-transition: all 0.5s linear;
    -o-transition: all 0.5s linear;
    -ms-transition: all 0.5s linear;
    transition: all 0.5s linear;
-   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
 }
 .view h2 {
-   font-size: 23px;
+   font-size: 10px;
    color: black;
    font-family:Monospace;
    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
    background: transparent;
-   margin: 20px 40px 0px 40px;
+   margin: 0px 0px 0px 0px;
    -webkit-transform: scale(0);
    -moz-transform: scale(0);
    -o-transform: scale(0);
@@ -74,14 +74,12 @@ body { background: url("https://www.dropbox.com/s/3yvleqvupw6ikmt/background.jpg
    -o-transition: all 0.5s linear;
    -ms-transition: all 0.5s linear;
    transition: all 0.5s linear;
-   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
 }
 .view p {
    color: #333;
-   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-   filter: alpha(opacity=0);
+   filter: alpha(opacity=1);
    opacity: 0;
    -webkit-transform: scale(0);
    -moz-transform: scale(0);
@@ -96,7 +94,7 @@ body { background: url("https://www.dropbox.com/s/3yvleqvupw6ikmt/background.jpg
   
 }
 .view a.info {
-   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  
    filter: alpha(opacity=0);
    opacity: 0;
    -webkit-transform: scale(0);
@@ -116,13 +114,10 @@ body { background: url("https://www.dropbox.com/s/3yvleqvupw6ikmt/background.jpg
    -o-transform: scale(5);
    -ms-transform: scale(5);
    transform: scale(5);
-   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
 }
 .view:hover .mask {
-   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
-   filter: alpha(opacity=100);
    opacity: 1;
 }
 .view:hover h2,.view-tenth:hover p,.view-tenth:hover a.info {
@@ -131,7 +126,6 @@ body { background: url("https://www.dropbox.com/s/3yvleqvupw6ikmt/background.jpg
    -o-transform: scale(1);
    -ms-transform: scale(1);
    transform: scale(1);
-   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
    filter: alpha(opacity=100);
    opacity: 1;
 }
