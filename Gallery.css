@@ -111,11 +111,11 @@ body { background: url("https://www.dropbox.com/s/3yvleqvupw6ikmt/background.jpg
    transition: all 0.5s linear;
 }
 .view:hover img {
-   -webkit-transform: scale(10);
-   -moz-transform: scale(10);
-   -o-transform: scale(10);
-   -ms-transform: scale(10);
-   transform: scale(10);
+   -webkit-transform: scale(5);
+   -moz-transform: scale(5);
+   -o-transform: scale(5);
+   -ms-transform: scale(5);
+   transform: scale(5);
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
